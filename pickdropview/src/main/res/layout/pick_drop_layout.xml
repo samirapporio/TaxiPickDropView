@@ -9,66 +9,160 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="10dp"
-            android:layout_height="49dp"
-            android:src="@color/muted_green"/>
+            android:layout_width="6dp"
+            android:layout_height="45dp"
+            android:src="@drawable/pick_indicator_background"/>
 
 
         <ImageView
-            android:layout_width="10dp"
-            android:layout_height="49dp"
-            android:src="@color/muted_red"/>
+            android:layout_width="6dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/drop_indicator_background"/>
 
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="49dp"
+            android:layout_height="40dp"
             android:orientation="vertical"
-            android:background="#ffbbbb"
             android:paddingLeft="10dp"
             android:paddingTop="3dp"
             android:gravity="top|left">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:textColor="@color/muted_green"
                 android:text="Pick Location"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Click to select your pick location. "/>
+                android:maxLines="1"
+                android:textSize="12dp"
+                android:text="Click to select your pick location.  Google some long text goes here accordingly "/>
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:background="@color/muted_grey"/>
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="10dp"
+                android:background="@drawable/half_grey_circle"/>
+        </LinearLayout>
+
 
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="49dp"
-            android:orientation="vertical"
-            android:background="#ffbbff"
-            android:paddingLeft="10dp"
-            android:paddingTop="3dp"
-            android:gravity="top|left">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pick Location"/>
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center|top">
 
-            <TextView
-                android:layout_width="wrap_content"
+
+            <LinearLayout
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Click to select your pick location. "/>
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp"
+                    android:gravity="top|left">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Drop Location"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:textSize="13dp"
+                            android:textColor="@color/muted_red"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:layout_weight="1"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizeMinTextSize="12sp"
+                            android:autoSizeMaxTextSize="100sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:text="Click to select your pick location. some long text goes here accordingly  "/>
+
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:padding="8dp"
+                        android:id="@+id/plus_button"
+                        android:src="@drawable/ic_plus_sign_vector"/>
+
+
+
+                </LinearLayout>
+
+                <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/drop_location_container">
+
+<!--                        <include layout="@layout/item_drop_location"/>-->
+                    </LinearLayout>
+                </ScrollView>
+
+
+
+            </LinearLayout>
+
+
+
+
+
         </LinearLayout>
+
 
 
 

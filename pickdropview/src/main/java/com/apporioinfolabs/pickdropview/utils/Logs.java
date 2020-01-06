@@ -8,4 +8,8 @@ public class Logs {
         Log.i(tag, message);
     }
 
+    public static void e(String tag , String message){
+        Log.e(tag, message);
+    }
+
 }

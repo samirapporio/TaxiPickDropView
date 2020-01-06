@@ -5,8 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
+    android:gravity="center|top"
+    android:background="#333333"
+    android:paddingTop="10dp"
     tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:text="Some Sample text "/>
 
     <com.apporioinfolabs.pickdropview.PickDropView
         android:layout_width="fill_parent"

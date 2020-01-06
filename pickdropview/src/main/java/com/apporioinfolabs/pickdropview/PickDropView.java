@@ -5,18 +5,26 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
+import com.apporioinfolabs.pickdropview.utils.Difusor;
 import com.apporioinfolabs.pickdropview.utils.Logs;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class PickDropView  extends LinearLayout {
 
     private Context mContext  = null  ;
     private static final String TAG = "PickDropView";
-    private TextView text ;
+    private ImageView plus_button ;
+    private LinearLayout drop_location_container ;
+    private List<String> drop_location = new ArrayList<>();
 
     // interfaces
     private OnCarcategoryViewListeners onCarcategoryViewListeners ;
@@ -56,21 +64,40 @@ public class PickDropView  extends LinearLayout {
     protected void onFinishInflate() {
         super.onFinishInflate();
         try{
-            text = findViewById(R.id.text);
-
+            plus_button = findViewById(R.id.plus_button);
+            drop_location_container = findViewById(R.id.drop_location_container);
             // should place after finding id of every element in whole view.
             setClickAction();
-        }catch (Exception e){ Logs.i(TAG , ""+e.getMessage()); }
+        }catch (Exception e){ Logs.e(TAG , ""+e.getMessage()); }
     }
 
 
     public void setClickAction(){
-        text.setOnClickListener(new OnClickListener() {
+
+
+        plus_button.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                onCarcategoryViewListeners.onElementSelect(""+text.getText());
+                if(!Difusor.ENABLE_ADD_MORE_DESTINATION){
+                    Toast.makeText(mContext, "Blocked By Difusor", Toast.LENGTH_SHORT).show();
+                }else{
+                    drop_location.add("");
+                    setDropLocationsFromList();
+                }
             }
         });
+    }
+
+
+    private void setDropLocationsFromList(){
+
+        drop_location_container.removeAllViews();
+        LayoutInflater inflater = LayoutInflater.from(mContext);
+
+        for(int i =0 ; i < drop_location.size() ; i ++){
+            View inflatedLayout= inflater.inflate(R.layout.item_drop_location, null, false);
+            drop_location_container.addView(inflatedLayout);
+        }
     }
 
 
@@ -80,9 +107,6 @@ public class PickDropView  extends LinearLayout {
 
 
 
-    public void setTextValue(String textValue){
-        text.setText(""+textValue);
-    }
 
 
     public interface OnCarcategoryViewListeners{
