@@ -45,14 +45,15 @@
                 android:textStyle="bold"
                 android:textSize="13dp"
                 android:textColor="@color/muted_green"
-                android:text="Pick Location"/>
+                android:text="@string/lib_pick_location"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
-                android:textSize="12dp"
-                android:text="Click to select your pick location.  Google some long text goes here accordingly "/>
+                android:textSize="13dp"
+                android:id="@+id/pick_address_text"
+                android:text="@string/lib_click_to_select_pick_address"/>
         </LinearLayout>
 
         <LinearLayout
@@ -107,7 +108,7 @@
                         <TextView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:text="Drop Location"
+                            android:text="@string/lib_drop_location"
                             android:textStyle="bold"
                             android:layout_weight="1"
                             android:textSize="13dp"
@@ -118,11 +119,10 @@
                             android:layout_height="wrap_content"
                             android:maxLines="1"
                             android:layout_weight="1"
-                            android:autoSizeTextType="uniform"
-                            android:autoSizeMinTextSize="12sp"
-                            android:autoSizeMaxTextSize="100sp"
-                            android:autoSizeStepGranularity="2sp"
-                            android:text="Click to select your pick location. some long text goes here accordingly  "/>
+                            android:textSize="13dp"
+                            android:layout_marginBottom="7dp"
+                            android:id="@+id/drop_address_text"
+                            android:text="@string/lib_click_to_select_drop_address"/>
 
 
                     </LinearLayout>

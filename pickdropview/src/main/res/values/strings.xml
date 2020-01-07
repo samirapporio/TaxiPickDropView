@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PickDropView</string>
+    <string name="lib_pick_location">- - - -</string>
+    <string name="lib_drop_location">- - - -</string>
+    <string name="lib_click_to_select_pick_address">- - - - - - - - - - - - - - - -</string>
+    <string name="lib_click_to_select_drop_address">- - - - - - - - - - - - - - - -</string>
 </resources>

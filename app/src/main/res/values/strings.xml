@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PickDropSelectorView</string>
+
+    <string name="lib_pick_location">Pick Location </string>
+    <string name="lib_drop_location">Drop Location</string>
+    <string name="lib_click_to_select_pick_address">Click To select Pick Address</string>
+    <string name="lib_click_to_select_drop_address">Click to select drop address</string>
 </resources>

@@ -6,16 +6,30 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Pick" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a9bc64c-8538-4e96-a0dd-6f1c331d5b6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/model/ModelAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/apporioinfolabs/pickdropselectorview/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/apporioinfolabs/pickdropselectorview/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/PickDropView.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/PickDropView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickdropview/src/main/res/layout/item_drop_location.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pickdropview/src/main/res/layout/item_drop_location.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickdropview/src/main/res/layout/pick_drop_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pickdropview/src/main/res/layout/pick_drop_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickdropview/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pickdropview/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +40,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="890231a" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="KitKat_imulator" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -39,43 +53,83 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/PickDropView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="375">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="method#PickDropView#0;class#PickDropView#0" />
                 <element signature="method#PickDropView#1;class#PickDropView#0" />
                 <element signature="method#PickDropView#2;class#PickDropView#0" />
                 <element signature="method#PickDropView#3;class#PickDropView#0" />
+                <element signature="method#setListners#0;class#PickDropView#0" />
+                <element signature="e#2931#3003#0" />
+                <element signature="method#enableMultiDropFunctionality#0;class#PickDropView#0" />
+                <element signature="method#isMultiDropEnable#0;class#PickDropView#0" />
+                <element signature="e#3779#3863#1" />
+                <element signature="e#3867#3927#1" />
+                <element signature="e#3952#4072#1" />
+                <element signature="e#4123#4211#1" />
+                <element signature="e#3492#3596#1" />
+                <element signature="method#setPickAddress#0;class#PickDropView#0" />
+                <element signature="method#setDropAddress#0;class#PickDropView#0" />
+                <element signature="e#5681#5943#1" />
+                <element signature="e#5947#6007#1" />
+                <element signature="e#5989#6034#1" />
+                <element signature="e#6008#6103#1" />
+                <element signature="e#4194#4217#0" />
+                <element signature="e#4194#4217#0" />
+                <element signature="method#setDropLocationsFromList#0;class#PickDropView#0" />
+                <element signature="e#6624#7284#1" />
                 <element signature="method#initialiseListeners#0;class#PickDropView#0" />
-                <element signature="class#OnCarcategoryViewListeners#0;class#PickDropView#0" />
+                <element signature="class#OnPickDropViewListeners#0;class#PickDropView#0" />
+                <marker date="1578399554226" expanded="true" signature="599:1232" ph="..." />
+                <marker date="1578399554226" expanded="true" signature="3006:7823" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/utils/Difusor.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apporioinfolabs/pickdropselectorview/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            <state relative-caret-position="570">
+              <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+              <folding>
+                <element signature="class#509:1633" />
+                <element signature="method#onElementSelect#0;class#509:1633" />
+                <element signature="method#onPickLocationClick#0;class#509:1633" />
+                <element signature="e#770#937#1" />
+                <element signature="e#941#1135#1" />
+                <element signature="method#onDropLocationClick#0;class#509:1633" />
+                <element signature="e#1287#1419#1" />
+                <element signature="e#1423#1617#1" />
+                <element signature="e#2554#2734#1" />
+                <element signature="e#2738#2868#1" />
+                <element signature="e#3123#3306#1" />
+                <element signature="e#3310#3440#1" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/utils/Logs.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="345">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="39" />
+              <folding>
+                <element signature="e#1078#1827#0" />
+                <element signature="e#1835#2584#0" />
+              </folding>
             </state>
           </provider>
+          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pickdropview/src/main/res/layout/pick_drop_layout.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="152" column="35" selection-start-line="152" selection-start-column="35" selection-end-line="152" selection-end-column="35" />
+            <state relative-caret-position="565">
+              <caret line="121" column="50" selection-start-line="121" selection-start-column="50" selection-end-line="121" selection-end-column="50" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
@@ -88,8 +142,8 @@
       <list>
         <option value="valueResourceFile" />
         <option value="resourceFile" />
-        <option value="Class" />
         <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,6 +152,8 @@
       <find>CarCategoryView</find>
       <find>vertical</find>
       <find>text</find>
+      <find>onPickDropViewListeners</find>
+      <find>layout</find>
     </findStrings>
     <replaceStrings>
       <replace>PickDropView</replace>
@@ -112,32 +168,87 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/apporioinfolabs/pickdropselectorview/MainActivity.java" />
         <option value="$PROJECT_DIR$/pickdropview/src/main/res/drawable/root_background.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/pickdropview/src/main/res/drawable/pick_indicator_background.xml" />
         <option value="$PROJECT_DIR$/pickdropview/src/main/res/drawable/drop_indicator_background.xml" />
         <option value="$PROJECT_DIR$/pickdropview/src/main/res/drawable/ic_plus_sign_vector.xml" />
         <option value="$PROJECT_DIR$/pickdropview/src/main/res/drawable/grey_circle.xml" />
         <option value="$PROJECT_DIR$/pickdropview/src/main/res/drawable/full_grey_circle.xml" />
         <option value="$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/utils/Logs.java" />
-        <option value="$PROJECT_DIR$/pickdropview/src/main/res/layout/item_drop_location.xml" />
         <option value="$PROJECT_DIR$/pickdropview/src/main/res/drawable/ic_delete_vector.xml" />
         <option value="$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/utils/Difusor.java" />
+        <option value="$PROJECT_DIR$/pickdropview/src/main/res/layout/item_drop_location.xml" />
+        <option value="$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/model/ModelAddress.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/pickdropview/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/pickdropview/src/main/res/layout/pick_drop_layout.xml" />
         <option value="$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/PickDropView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/apporioinfolabs/pickdropselectorview/MainActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="69" />
+    <option name="y" value="66" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PickDropSelectorView" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiPickDropView" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="PickDropSelectorView" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiPickDropView" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="PickDropSelectorView" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiPickDropView" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PickDropSelectorView" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiPickDropView" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PickDropSelectorView" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiPickDropView" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PickDropSelectorView" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiPickDropView" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="890231a" />
@@ -245,11 +356,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="69" y="66" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.3297568" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.32956383" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -258,19 +369,19 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.46849316" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3280098" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.28767124" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.32904148" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
@@ -289,27 +400,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apporioinfolabs/pickdropselectorview/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pickdropview/src/main/res/drawable/root_background.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pickdropview/src/main/res/drawable/ic_plus_sign_vector.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -339,14 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pickdropview/src/main/res/layout/item_drop_location.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="103" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="32" selection-end-column="103" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pickdropview/src/main/res/drawable/ic_delete_vector.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -354,24 +442,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/PickDropView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="method#PickDropView#0;class#PickDropView#0" />
-            <element signature="method#PickDropView#1;class#PickDropView#0" />
-            <element signature="method#PickDropView#2;class#PickDropView#0" />
-            <element signature="method#PickDropView#3;class#PickDropView#0" />
-            <element signature="method#initialiseListeners#0;class#PickDropView#0" />
-            <element signature="class#OnCarcategoryViewListeners#0;class#PickDropView#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/utils/Difusor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="90">
           <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
@@ -383,13 +456,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pickdropview/src/main/res/layout/pick_drop_layout.xml">
+    <entry file="file://$PROJECT_DIR$/pickdropview/src/main/res/layout/item_drop_location.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="152" column="35" selection-start-line="152" selection-start-column="35" selection-end-line="152" selection-end-column="35" />
+        <state relative-caret-position="335">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="41" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/model/ModelAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pickdropview/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pickdropview/src/main/res/layout/pick_drop_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="121" column="50" selection-start-line="121" selection-start-column="50" selection-end-line="121" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#1078#1827#0" />
+            <element signature="e#1835#2584#0" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apporioinfolabs/pickdropselectorview/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+          <folding>
+            <element signature="class#509:1633" />
+            <element signature="method#onElementSelect#0;class#509:1633" />
+            <element signature="method#onPickLocationClick#0;class#509:1633" />
+            <element signature="e#770#937#1" />
+            <element signature="e#941#1135#1" />
+            <element signature="method#onDropLocationClick#0;class#509:1633" />
+            <element signature="e#1287#1419#1" />
+            <element signature="e#1423#1617#1" />
+            <element signature="e#2554#2734#1" />
+            <element signature="e#2738#2868#1" />
+            <element signature="e#3123#3306#1" />
+            <element signature="e#3310#3440#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pickdropview/src/main/java/com/apporioinfolabs/pickdropview/PickDropView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="method#PickDropView#0;class#PickDropView#0" />
+            <element signature="method#PickDropView#1;class#PickDropView#0" />
+            <element signature="method#PickDropView#2;class#PickDropView#0" />
+            <element signature="method#PickDropView#3;class#PickDropView#0" />
+            <element signature="method#setListners#0;class#PickDropView#0" />
+            <element signature="e#2931#3003#0" />
+            <element signature="method#enableMultiDropFunctionality#0;class#PickDropView#0" />
+            <element signature="method#isMultiDropEnable#0;class#PickDropView#0" />
+            <element signature="e#3779#3863#1" />
+            <element signature="e#3867#3927#1" />
+            <element signature="e#3952#4072#1" />
+            <element signature="e#4123#4211#1" />
+            <element signature="e#3492#3596#1" />
+            <element signature="method#setPickAddress#0;class#PickDropView#0" />
+            <element signature="method#setDropAddress#0;class#PickDropView#0" />
+            <element signature="e#5681#5943#1" />
+            <element signature="e#5947#6007#1" />
+            <element signature="e#5989#6034#1" />
+            <element signature="e#6008#6103#1" />
+            <element signature="e#4194#4217#0" />
+            <element signature="e#4194#4217#0" />
+            <element signature="method#setDropLocationsFromList#0;class#PickDropView#0" />
+            <element signature="e#6624#7284#1" />
+            <element signature="method#initialiseListeners#0;class#PickDropView#0" />
+            <element signature="class#OnPickDropViewListeners#0;class#PickDropView#0" />
+            <marker date="1578399554226" expanded="true" signature="599:1232" ph="..." />
+            <marker date="1578399554226" expanded="true" signature="3006:7823" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
